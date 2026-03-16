@@ -11,7 +11,7 @@
 
 /* Apply border-box sizing to all elements */
 * {
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 
 /* ===============================
@@ -92,4 +92,14 @@ body {
 /* Button hover state */
 .btn-primary:hover {
   background-color: #013a31; /* darker teal for hover */
+}
+.hero{
+position: relative;
+text-align: center;
+}
+.hero img{
+    width:100%;
+    height: 650;
+    object-fit: cover;
+    filter: brightness(100%);
 }
