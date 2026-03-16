@@ -1,145 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>FitLife Hub</title>
-<link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-<h1>FitLife Hub</h1>
-<p>Each workout contribute to a healthier life</p>
+<header class="text-center py-4 bg-primary text-white">
+  <h1>FitLife Hub</h1>
+  <p>Each workout contributes to a healthier life</p>
 </header>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-<div class="container">
-
-<a class="navbar-brand d-flex align-items-center" href="index.html">
-FitLife Hub
-</a>
-
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-<span class="navbar-toggler-icon"></span>
-</button>
-
-<div class="collapse navbar-collapse" id="navbarNav">
-
-<ul class="navbar-nav ms-auto">
-
-<li class="nav-item">
-<a class="nav-link" href="index.html">Home</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="workouts.html">Workouts</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link active" href="plans.html">Workout Plans</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="blog.html">Blog</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="bmi.html">BMI Calculator</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="about.html">About</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="contact.html">Contact</a>
-</li>
-
-</ul>
-
-</div>
-</div>
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">FitLife Hub</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="workouts.html">Workouts</a></li>
+        <li class="nav-item"><a class="nav-link" href="plans.html">Workout Plans</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="bmi.html">BMI Calculator</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
 
-<section class="hero">
-
+<!-- Hero Section -->
+<section class="hero d-flex align-items-center justify-content-center text-center p-5 bg-light">
+  <div>
+    <img src="pictures/pexels-anush-1229356.jpg" alt="Transform Your Body" class="hero-img mb-3">
+    <h1>Welcome to FitLife Hub</h1>
+    <p>Start your fitness journey today</p>
+    <p>Sweat now, shine later. At FitLife, we help people achieve their fitness goals through professional training, personalized workout plans, and a supportive environment.</p>
+    <button class="btn btn-primary mt-3">Join Now</button>
+  </div>
 </section>
 
-<section class="hero">
-
-    <img src="pictures/pexels-anush-1229356.jpg" alt="Transform Your Body, Transform Your life" height="350" width="450">
-
-    <div class="hero text">
-<h1>Welcome to FitLife Hub</h1>
-
-<p>Start your fitness journey today</p>
-
-<p2>Sweat Now,Shine Later.At FitLife, we help people achieve their fitness goals through professional training,personilized workout plans,and a supportive environment.</p2>
-
-<button>Join Now</button>
-
-</div>
-
-</section>
-<div class="container mt-5">
-
-<h2 class="text center mb-4"><strong>Road To Healthy life</strong></h2>
-
-<section class="content">
+<!-- Cards Section -->
+<div class="container my-5">
+  <h2 class="text-center mb-4"><strong>Road To Healthy Life</strong></h2>
+  <div class="card-container">
 
     <div class="card">
-        <img src="pictures/ladyobese.jpg.jpg" alt="everybody">
-    <h3><Strong>ABOUT</Strong></h3>
-    <p>FitLife is more than just a fitness center.Its a community where people come together to improve their health and boost confidence.</p>
-    <a href="about.html" class="btn btn-primary">Read More</a>
+      <img src="pictures/ladyobese.jpg.jpg" alt="About">
+      <h3>About</h3>
+      <p>FitLife is more than just a fitness center. It's a community where people come together to improve their health and boost confidence.</p>
+      <a href="about.html" class="btn btn-primary">Read More</a>
     </div>
 
-    
-  <div class="card">
-        <img src="pictures/pexels-cottonbro-4753892.jpg" alt="bg">
-    <h4><strong>Blog</strong></h4>
-    <p>Our blog is designed to help you stay informed,motivated and insipired on your fitness journey.</p>
-    <a href="blog.html" class="btn btn-primary">Read More</a>
+    <div class="card">
+      <img src="pictures/pexels-cottonbro-4753892.jpg" alt="Blog">
+      <h3>Blog</h3>
+      <p>Our blog is designed to help you stay informed, motivated, and inspired on your fitness journey.</p>
+      <a href="blog.html" class="btn btn-primary">Read More</a>
     </div>
-</section>
 
-
-<div class="card">
-        <img src="pictures/plan workout.jpg" alt="plan">
-    <h5><strong>Plans</strong></h5>
-    <p>At FitLife, we offer flexible membership plans designed to fit different fitness goals and lifestyles.</p>
-    <a href="plans.html" class="btn btn-primary">Read More</a>
+    <div class="card">
+      <img src="pictures/plan workout.jpg" alt="Plans">
+      <h3>Plans</h3>
+      <p>At FitLife, we offer flexible membership plans designed to fit different fitness goals and lifestyles.</p>
+      <a href="plans.html" class="btn btn-primary">Read More</a>
     </div>
-</section>
 
-<div class="card">
-        <img src="pictures/contacts.jpg" alt="in touch">
-    <h6><strong>Contact</strong></h6>
-    <p>We’d love to hear from you. If you have questions about our programs, membership plans, or fitness services, the FitLife team is here to help.</p>
-    <a href="contact" class="btn btn-primary">Read More</a>
+    <div class="card">
+      <img src="pictures/contacts.jpg" alt="Contact">
+      <h3>Contact</h3>
+      <p>We’d love to hear from you. If you have questions about our programs, membership plans, or fitness services, the FitLife team is here to help.</p>
+      <a href="contact.html" class="btn btn-primary">Read More</a>
     </div>
-</section>
 
-<div class="card">
-        <img src="pictures/pexels-victorfreitas-949131.jpg" alt="lifter">
-    <h7><strong>Workouts</strong></h7>
-    <p>Our workouts are suitable for different experience levels, from beginners to more advanced athletes.</p>
-    <a href="workouts.html" class="btn btn-primary">Read More</a>
+    <div class="card">
+      <img src="pictures/pexels-victorfreitas-949131.jpg" alt="Workouts">
+      <h3>Workouts</h3>
+      <p>Our workouts are suitable for different experience levels, from beginners to more advanced athletes.</p>
+      <a href="workouts.html" class="btn btn-primary">Read More</a>
     </div>
-</section>
 
-<div class="card">
-        <img src="pictures/bmi.jpg" alt="measure">
-    <h8><strong>BMI</strong></h8>
-    <p>Body Mass Index (BMI) is a simple way to estimate whether a person’s weight is within a healthy range based on their height and weight.</p>
-    <a href="bmi.html" class="btn btn-primary">Read More</a>
+    <div class="card">
+      <img src="pictures/bmi.jpg" alt="BMI">
+      <h3>BMI</h3>
+      <p>Body Mass Index (BMI) is a simple way to estimate whether a person’s weight is within a healthy range based on their height and weight.</p>
+      <a href="bmi.html" class="btn btn-primary">Read More</a>
     </div>
-</section>
 
-<footer>
-    <p>@2026 FitLife Hub.Web And Multimedia Develepoment by Karabo Keikabile</p>
+  </div>
+</div>
+
+<footer class="text-center py-3 bg-dark text-white">
+  <p>&copy; 2026 FitLife Hub. Web and Multimedia Development by Karabo Keikabile</p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
