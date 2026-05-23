@@ -4,6 +4,22 @@
 <title>Fitness Blog</title>
 <link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+
+<style>
+  /* Float images left and right with spacing */
+  .img-left {
+    float: left;
+    margin: 0 1rem 1rem 0;
+    max-width: 300px;
+    border-radius: 8px;
+  }
+  .img-right {
+    float: right;
+    margin: 0 0 1rem 1rem;
+    max-width: 300px;
+    border-radius: 8px;
+  }
+</style>
 </head>
 
 <body>
@@ -19,62 +35,48 @@ FitLife Hub
 </button>
 
 <div class="collapse navbar-collapse" id="navbarNav">
-
 <ul class="navbar-nav ms-auto">
-
-<li class="nav-item">
-<a class="nav-link" href="index.html">Home</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="workouts.html">Workouts</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link active" href="plans.html">Workout Plans</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="blog.html">Blog</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="bmi.html">BMI Calculator</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="about.html">About</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="contact.html">Contact</a>
-</li>
-
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="workouts.html">Workouts</a></li>
+<li class="nav-item"><a class="nav-link" href="plans.html">Plans</a></li>
+<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+<li class="nav-item"><a class="nav-link" href="bmi.html">BMI Calculator</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 </ul>
-
 </div>
 </div>
 </nav>
+
 <div class="container mt-5">
 
 <h1><strong>Blog</strong></h1>
 <p>
   Welcome to the FitLife Hub Blog, your go to space for fitness tips, workout ideas, and healthy lifestyle advice.
-    </p>
+</p>
 
-    <section class="mt-4">
- <h2>Health and Nutrition</h2>   
-<p2>Fitness is not only about exercise but also about maintaining a balanced and healthy lifestyle. Our blog includes helpful nutrition tips, healthy meal ideas, and advice on building habits that support long term health and wellness.</p2>
+<section class="mt-4">
+  <h2>Health and Nutrition</h2>   
+  <!-- Float image left -->
+  <img src="pictures/Health_fit.png" alt="Healthy Nutrition" class="img-left">
+  <p>
+    Fitness is not only about exercise but also about maintaining a balanced and healthy lifestyle. 
+    Our blog includes helpful nutrition tips, healthy meal ideas, and advice on building habits that support long term health and wellness.
+  </p>
 </section>
 
 <section class="mt-4">
-<h3>Insipiration</h3>
-
-<p>Sometimes staying motivated can be challenging. The FitLife Hub  also focuses on inspiration by sharing success stories, fitness challenges, and motivational content that encourages you to keep pushing toward your goals.</p>
+  <h3>Inspiration</h3>
+  <!-- Float image right -->
+  <img src="pictures/pexels-cottonbro-4753892.jpg" alt="Fitness Inspiration" class="img-right">
+  <p>
+    Sometimes staying motivated can be challenging. The FitLife Hub also focuses on inspiration by sharing success stories, 
+    fitness challenges, and motivational content that encourages you to keep pushing toward your goals.
+  </p>
 </section>
 
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
